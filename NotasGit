@@ -5,4 +5,9 @@
 # Agregar archivos nuevos: git add <nombre>
 
 # Consultar commits realizados: git log
- 
+
+# Configurar datos: 
+	Nombre > git config --global user.name "John Doe"
+	Correo > git config --global user.email johndoe@example.com
+
+# Guardar cambios: git commit -a -m "Comentario"
