@@ -15,4 +15,7 @@
 # Guardar cambios: git commit -a -m "Comentario"  (-am)(concatenar abreviaturas)
 
 
+# git help "cmdn"
+
 # Ctrl + Shift + P : Paquetes Sublime, (Sublimer) Comparar Revision
+
