@@ -10,4 +10,4 @@
 	Nombre > git config --global user.name "John Doe"
 	Correo > git config --global user.email johndoe@example.com
 
-# Guardar cambios: git commit -a -m "Comentario"
+# Guardar cambios: git commit -a -m "Comentario"  (-am)(concatenar abreviaturas)
