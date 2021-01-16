@@ -1,0 +1,8 @@
+# Iniciar un repositorio: git init
+# Consultar estado de un repositorio: git status
+# Nuevos archivos sin guardar: git status
+
+# Agregar archivos nuevos: git add <nombre>
+
+# Consultar commits realizados: git log
+
