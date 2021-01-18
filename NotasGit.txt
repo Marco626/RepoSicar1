@@ -82,4 +82,5 @@
 
 # Ctrl + Shift + P : Paquetes Sublime, (Sublimer) Comparar Revision
 
-#comentario para rama Master, Fusionar con rama Main
+#comentario para rama Master
+# Rama master comentario extras
