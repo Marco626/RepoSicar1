@@ -10,7 +10,14 @@
 	- git add doc/*.txt (todos dentro de directorio con esa extension)
 
 # git log									: Consultar commits realizados
-
+	- git log -3								: Muestra los ultimos 3
+	- git log --oneline 						: Consultar commits abreviado
+	- git log --oneline --max-count=2			: Muestra los ultimos 2
+	- git log --oneline --since='5 minutes ago' : Hace 5 minutos
+	- git log --oneline --until='5 minutes ago' : Hasta hace 5 minutos
+	- git log --oneline --author=Marco			: Por el autor
+	- git log --oneline --all					: Mostrar todo
+	
 # git commit -m "Mensaje de commit"			: Cargar los cambios realizados
 	- git commit -a -m "Comentario"  			: Agregar(-a) y cargar los cambios (-am)(concatenar abreviaturas) 
 
@@ -51,9 +58,14 @@
 
 # git pull origin <nameBranch>				: Busca los cambios del remoto y actualiza repositorio local
 
+# git checkout								: Regresar a un estado del proyecto
+	- git checkout <rama>						: Moverse entre ramas
+
+# git revert HEAD --no-edit					: Revertir Commit
+
 # git rm <archivo> 							: Borrar un archivo del repositorio
 
-
+# git mv <archivo> <dir>					: Mover a directorio el archivo
 
 
 
