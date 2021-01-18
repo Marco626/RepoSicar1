@@ -83,9 +83,13 @@
 
 # Ctrl + Shift + P : Paquetes Sublime, (Sublimer) Comparar Revision
 
+
 #comentarios para rama test
 
 # Este archivo de rama test sera modificado para despues aplicar un merge
 # Lineas extras de codigo
 # Comentarios aleatorios
 # Bass
+
+#comentario para rama Master, Fusionar con rama Main
+
