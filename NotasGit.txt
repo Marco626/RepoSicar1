@@ -15,12 +15,14 @@
 	- git commit -a -m "Comentario"  			: Agregar(-a) y cargar los cambios (-am)(concatenar abreviaturas) 
 
 # git diff									: Muestra los cambios realizados a un archivo
+	- git diff "Id" "ID"						: Compara esos commits
 	- git diff --staged
 
 # Configurar datos: 
 	Nombre > git config --global user.name "John Doe"
 	Correo > git config --global user.email johndoe@example.com
 
+# git clone <url>							: Clonamos el repositorio remoto
 
 # git remote add origin <url>				: Agregar repositorio remoto
 	- git remote set-url origin <url>			: Cambiar de remote
