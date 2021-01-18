@@ -1,0 +1,33 @@
+# git init									: Iniciar un repositorio
+
+# git status 								: Lista un estado actual del repositorio con lista de archivos modificados o agregados
+
+# git add <nombre> 							: Agregar archivo nuevo al staying para el commit
+	- git add .		(añadir todos)
+	- git add --all (todos omitiendo los nuevos)
+	- git add *.txt (todos con la extension "txt")
+	- git add doc/	(todos dentro de directorio doc/)
+	- git add doc/*.txt (todos dentro de directorio con esa extension)
+
+# git log									: Consultar commits realizados
+
+# git commit -m "Mensaje de commit"			: Cargar los cambios realizados
+
+# git commit -a -m "Comentario"  			: Agregar(-a) y cargar los cambios (-am)(concatenar abreviaturas) 
+
+# Configurar datos: 
+	Nombre > git config --global user.name "John Doe"
+	Correo > git config --global user.email johndoe@example.com
+
+
+
+
+# cat "archivo"			: Ver contenido
+	
+# history				: Historial de comandos utilizado
+
+
+# git help "cmdn"
+
+# Ctrl + Shift + P : Paquetes Sublime, (Sublimer) Comparar Revision
+
