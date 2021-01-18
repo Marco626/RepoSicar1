@@ -41,6 +41,7 @@
 
 # git branch <nombreBranch>					: Crea un branch
 	- git branch 								: Lista los branches
+	- git branch -v 							: Lista los branches ocultos
 	- git branch -d <nameBranch>				: Comando -d elimina el branch y lo une al master
 	- git branch -D <nameBranch>				: Elimina sin preguntar
 
@@ -51,7 +52,7 @@
 # git reset HEAD <archivo>					: Saca un archivo del commit
 	- git reset <archivo>						: Quita el archivo del staging (contrario a add)
 	- git reset --soft HEAD^					: Devuelve el ultimo commit que se hizo y pone los cambios en staging
-	- git reset --hard HEAD^					: Devuelve el ultimo commit y todos los cambios
+	- git reset --hard HEAD^					: Devuelve el ultimo commit y todos los cambios, se borra commits porteriores
 
 # git rebase								: Se ponga al dia con el master sin afectarlo, no es un merge
 
@@ -59,7 +60,7 @@
 
 # git merge <nameBranch>					: Une el branch actual con el especificado (mezclar)
 
-# git pull origin <nameBranch>				: Busca los cambios del remoto y actualiza repositorio local
+# git pull origin <nameBranch>				: Busca los cambios del remoto y actualiza repositorio local (combinacion de fetch y merge)
 
 # git checkout								: Regresar a un estado del proyecto
 	- git checkout <rama>						: Moverse entre ramas
