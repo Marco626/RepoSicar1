@@ -72,6 +72,8 @@
 
 # git mv <archivo> <dir>					: Mover a directorio el archivo
 
+# git tag -a "V1" -m "Mensaje de tag"		: Agregar un tag a un commit especifico
+
 
 
 
