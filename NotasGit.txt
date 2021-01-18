@@ -42,7 +42,7 @@
 # git branch <nombreBranch>					: Crea un branch
 	- git branch 								: Lista los branches
 	- git branch -v 							: Lista los branches ocultos
-	- git branch -d <nameBranch>				: Comando -d elimina el branch y lo une al master
+	- git branch -d <nameBranch>				: Comando -d elimina el branch 
 	- git branch -D <nameBranch>				: Elimina sin preguntar
 
 # git push <origen> <branch>				: Subir al repositorio
@@ -64,6 +64,7 @@
 
 # git checkout								: Regresar a un estado del proyecto
 	- git checkout <rama>						: Moverse entre ramas
+	- git checkout -b <rama>					: Un atajo para, -git branch <rama>- seguido de -git checkout <rama>-
 
 # git revert HEAD --no-edit					: Revertir Commit
 
