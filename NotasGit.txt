@@ -44,7 +44,8 @@
 	- git branch -D <nameBranch>				: Elimina sin preguntar
 
 # git push <origen> <branch>				: Subir al repositorio
-	-git push --tags 							: subir un tag
+	-git push --tags 							: Subir un tag
+	-git push -u origin <rama>					: Subir una rama GitHub
 
 # git reset HEAD <archivo>					: Saca un archivo del commit
 	- git reset --soft HEAD^					: Devuelve el ultimo commit que se hizo y pone los cambios en staging
@@ -82,6 +83,29 @@
 
 # Ctrl + Shift + P : Paquetes Sublime, (Sublimer) Comparar Revision
 
+
 # Comentario para rama Master
 # Rama master comentario extras
 # La rama master debe llevar mas contenido
+
+#Estos es lo que se agrego desde la test###########################
+# Comentarios para rama test
+
+# Este archivo de rama test sera modificado para despues aplicar un merge
+# Lineas extras de codigo
+# Comentarios aleatorios
+# Bass
+
+
+# Este apartado estaba en el head
+
+# Comentario en tercera Rama ###
+
+
+#Tercera Rama
+####################################################
+########################
+####################################################
+########################
+
+#Rama de Test######################################
