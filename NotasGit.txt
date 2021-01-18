@@ -2,7 +2,7 @@
 
 # git status 								: Lista un estado actual del repositorio con lista de archivos modificados o agregados
 
-# git add <nombre> 							: Agregar archivo nuevo al staying para el commit
+# git add <nombre> 							: Agregar archivo nuevo al staging para el commit
 	- git add .		(añadir todos)
 	- git add --all (todos omitiendo los nuevos)
 	- git add *.txt (todos con la extension "txt")
@@ -15,9 +15,32 @@
 
 # git commit -a -m "Comentario"  			: Agregar(-a) y cargar los cambios (-am)(concatenar abreviaturas) 
 
+# git diff									: Muestra los cambios realizados a un archivo
+	- git diff --staged
+
 # Configurar datos: 
 	Nombre > git config --global user.name "John Doe"
 	Correo > git config --global user.email johndoe@example.com
+
+
+# git remote add origin <url>				: Agregar repositorio remoto
+	- git remote set-url origin <url>			: Cambiar de remote
+	- git remote rm <name/origin>				: Remover repositorio
+	- git remote -V 							: Lista repositorios
+	- git remote show origin					: Muestra los branches remotos
+	- git remote prune origin					: Limpiar branches eliminados
+
+# git branch <nombreBranch>					: Crea un branch
+
+# git push <origen> <branch>				: Subir al repositorio
+	-git push --tags 							: subir un tag
+
+# git reset HEAD <archivo>					: Saca un archivo del commit
+	- git reset --soft HEAD^					: Devuelve el ultimo commit que se hizo y pone los cambios en staging
+	- git reset --hard HEAD^					: Devuelve el ultimo commit y todos los cambios
+
+
+
 
 
 
