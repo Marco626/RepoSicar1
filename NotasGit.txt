@@ -44,7 +44,8 @@
 	- git branch -D <nameBranch>				: Elimina sin preguntar
 
 # git push <origen> <branch>				: Subir al repositorio
-	-git push --tags 							: subir un tag
+	-git push --tags 							: Subir un tag
+	-git push -u origin <rama>					: Subir una rama GitHub
 
 # git reset HEAD <archivo>					: Saca un archivo del commit
 	- git reset --soft HEAD^					: Devuelve el ultimo commit que se hizo y pone los cambios en staging
