@@ -31,6 +31,9 @@
 	- git remote prune origin					: Limpiar branches eliminados
 
 # git branch <nombreBranch>					: Crea un branch
+	- git branch 								: Lista los branches
+	- git branch -d <nameBranch>				: Comando -d elimina el branch y lo une al master
+	- git branch -D <nameBranch>				: Elimina sin preguntar
 
 # git push <origen> <branch>				: Subir al repositorio
 	-git push --tags 							: subir un tag
@@ -38,6 +41,16 @@
 # git reset HEAD <archivo>					: Saca un archivo del commit
 	- git reset --soft HEAD^					: Devuelve el ultimo commit que se hizo y pone los cambios en staging
 	- git reset --hard HEAD^					: Devuelve el ultimo commit y todos los cambios
+
+# git merge <nameBranch>					: Une el branch actual con el especificado
+
+# git rebase								: Se ponga al dia con el master sin afectarlo, no es un merge
+
+# git fetch 								: Verifica cambios en el repositorio online con el local
+
+# git rm <archivo> 							: Borrar un archivo del repositorio
+
+
 
 
 
