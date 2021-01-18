@@ -30,6 +30,7 @@
 	Correo > git config --global user.email johndoe@example.com
 
 # git clone <url>							: Clonamos el repositorio remoto
+	- git cloner <url> "nombre"					: Clonar el repositorio pero el directorio se llamara "nombre"
 
 # git remote add origin <url>				: Agregar repositorio remoto
 	- git remote set-url origin <url>			: Cambiar de remote
