@@ -48,6 +48,7 @@
 	-git push -u origin <rama>					: Subir una rama GitHub
 
 # git reset HEAD <archivo>					: Saca un archivo del commit
+	- git reset <archivo>						: Quita el archivo del staging (contrario a add)
 	- git reset --soft HEAD^					: Devuelve el ultimo commit que se hizo y pone los cambios en staging
 	- git reset --hard HEAD^					: Devuelve el ultimo commit y todos los cambios
 
@@ -101,11 +102,3 @@
 
 # Comentario en tercera Rama ###
 
-
-#Tercera Rama
-####################################################
-########################
-####################################################
-########################
-
-#Rama de Test######################################
