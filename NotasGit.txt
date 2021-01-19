@@ -41,7 +41,8 @@
 
 # git branch <nombreBranch>					: Crea un branch
 	- git branch 								: Lista los branches
-	- git branch -v 							: Lista los branches ocultos
+	- git branch -v 							: Lista los branches con su ultimo commit
+	- git branch -a 							: Lista los branches ocultos
 	- git branch -d <nameBranch>				: Comando -d elimina el branch 
 	- git branch -D <nameBranch>				: Elimina sin preguntar
 
