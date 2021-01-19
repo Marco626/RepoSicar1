@@ -1,0 +1,110 @@
+# git init									: Iniciar un repositorio
+
+# git status 								: Lista un estado actual del repositorio con lista de archivos modificados o agregados
+
+# git add <nombre> 							: Agregar archivo nuevo al staging para el commit
+	- git add .		(añadir todos)
+	- git add --all (todos omitiendo los nuevos)
+	- git add *.txt (todos con la extension "txt")
+	- git add doc/	(todos dentro de directorio doc/)
+	- git add doc/*.txt (todos dentro de directorio con esa extension)
+
+# git log									: Consultar commits realizados
+	- git log -3								: Muestra los ultimos 3
+	- git log --oneline 						: Consultar commits abreviado
+	- git log --oneline --max-count=2			: Muestra los ultimos 2
+	- git log --oneline --since='5 minutes ago' : Hace 5 minutos
+	- git log --oneline --until='5 minutes ago' : Hasta hace 5 minutos
+	- git log --oneline --author=Marco			: Por el autor
+	- git log --oneline --all					: Mostrar todo
+	
+# git commit -m "Mensaje de commit"			: Cargar los cambios realizados
+	- git commit -a -m "Comentario"  			: Agregar(-a) y cargar los cambios (-am)(concatenar abreviaturas) 
+
+# git diff									: Muestra los cambios realizados a un archivo
+	- git diff "Id" "ID"						: Compara esos commits
+	- git diff --staged
+
+# Configurar datos: 
+	Nombre > git config --global user.name "John Doe"
+	Correo > git config --global user.email johndoe@example.com
+
+# git clone <url>							: Clonamos el repositorio remoto
+	- git cloner <url> "nombre"					: Clonar el repositorio pero el directorio se llamara "nombre"
+
+# git remote add origin <url>				: Agregar repositorio remoto
+	- git remote set-url origin <url>			: Cambiar de remote
+	- git remote rm <name/origin>				: Remover repositorio
+	- git remote -V 							: Lista repositorios
+	- git remote show origin					: Muestra los branches remotos
+	- git remote prune origin					: Limpiar branches eliminados
+
+# git branch <nombreBranch>					: Crea un branch
+	- git branch 								: Lista los branches
+	- git branch -v 							: Lista los branches con su ultimo commit
+	- git branch -a 							: Lista los branches ocultos
+	- git branch -d <nameBranch>				: Comando -d elimina el branch 
+	- git branch -D <nameBranch>				: Elimina sin preguntar
+
+# git push <origen> <branch>				: Subir al repositorio
+	-git push --tags 							: Subir un tag
+	-git push -u origin <rama>					: Subir una rama GitHub
+
+# git reset HEAD <archivo>					: Saca un archivo del commit
+	- git reset <archivo>						: Quita el archivo del staging (contrario a add)
+	- git reset --soft HEAD^					: Devuelve el ultimo commit que se hizo y pone los cambios en staging
+	- git reset --hard HEAD^					: Devuelve el ultimo commit y todos los cambios, se borra commits porteriores
+
+# git rebase								: Se ponga al dia con el master sin afectarlo, no es un merge
+
+# git fetch 								: Descarga los cambios de remoto a repositorio local(no se fusionan y hace un branch)
+
+# git merge <nameBranch>					: Une el branch actual con el especificado (mezclar)
+
+# git pull origin <nameBranch>				: Busca los cambios del remoto y actualiza repositorio local (combinacion de fetch y merge)
+
+# git checkout								: Regresar a un estado del proyecto
+	- git checkout <rama>						: Moverse entre ramas
+	- git checkout -b <rama>					: Un atajo para, -git branch <rama>- seguido de -git checkout <rama>-
+
+# git revert HEAD --no-edit					: Revertir Commit
+
+# git rm <archivo> 							: Borrar un archivo del repositorio
+
+# git mv <archivo> <dir>					: Mover a directorio el archivo
+
+# git tag -a "V1" -m "Mensaje de tag"		: Agregar un tag a un commit especifico
+
+
+
+
+
+
+
+# cat "archivo"			: Ver contenido
+	
+# history				: Historial de comandos utilizado
+
+
+# git help "cmdn"
+
+# Ctrl + Shift + P : Paquetes Sublime, (Sublimer) Comparar Revision
+
+
+# Comentario para rama Master
+# Rama master comentario extras
+# La rama master debe llevar mas contenido
+
+#Estos es lo que se agrego desde la test###########################
+# Comentarios para rama test
+
+# Este archivo de rama test sera modificado para despues aplicar un merge
+# Lineas extras de codigo
+# Comentarios aleatorios
+# Bass
+
+
+# Este apartado estaba en el head
+
+# Comentario en tercera Rama ###
+
