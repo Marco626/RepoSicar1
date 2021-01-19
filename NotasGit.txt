@@ -92,23 +92,4 @@
 # Ctrl + Shift + P : Paquetes Sublime, (Sublimer) Comparar Revision
 
 
-# Comentario para rama Master
-# Rama master comentario extras
-# La rama master debe llevar mas contenido
-
-#Estos es lo que se agrego desde la test###########################
-# Comentarios para rama test
-
-# Este archivo de rama test sera modificado para despues aplicar un merge
-# Lineas extras de codigo
-# Comentarios aleatorios
-# Bass
-
-
-# Este apartado estaba en el head
-
-# Comentario en tercera Rama ###
-
-# Comentario en rama Main, intentar hacer un merge desde la rama master
-
-# Comentario en la terceraRama
+#Solo comentarios de Master
