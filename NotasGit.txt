@@ -105,12 +105,4 @@
 # Bass
 
 
-# Este apartado estaba en el head
-
-# Comentario en tercera Rama ###
-
-# Comentario en rama Main, intentar hacer un merge desde la rama master
-
-# Comentario en la terceraRama
-
 # Si aqui sigo agregando que pasa
