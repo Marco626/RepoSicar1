@@ -109,6 +109,3 @@
 # Bass
 
 
-# Si aqui sigo agregando que pasa
-# Git status -s
-
