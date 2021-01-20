@@ -14,11 +14,12 @@
 	- git add doc/*.txt (todos dentro de directorio con esa extension)
 
 # git log									: Consultar commits realizados
+	- git log --graph							: Grafico ASCII historia de ramificaciones
 	- git log -3								: Muestra los ultimos 3
 	- git log --oneline 						: Consultar commits abreviado
 	- git log --oneline --max-count=2			: Muestra los ultimos 2
-	- git log --oneline --since='5 minutes ago' : Hace 5 minutos
-	- git log --oneline --until='5 minutes ago' : Hasta hace 5 minutos
+	- git log --oneline --since='5 minutes ago' : Commits hechos despues de la fecha especificada
+	- git log --oneline --until='5 minutes ago' : Commits hechos antes de la fecha especificada
 	- git log --oneline --author=Marco			: Por el autor
 	- git log --oneline --all					: Mostrar todo
 	
