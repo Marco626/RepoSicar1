@@ -25,6 +25,7 @@
 	
 # git commit -m "Mensaje de commit"			: Cargar los cambios realizados
 	- git commit -a -m "Comentario"  			: Agregar(-a) y cargar los cambios (-am)(concatenar abreviaturas) 
+	- git commit --amend						: Modificar el commit anterior en base a este
 
 # git diff									: Muestra los cambios realizados a un archivo
 	- git diff "Id" "ID"						: Compara esos commits
