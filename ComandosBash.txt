@@ -13,6 +13,7 @@
 -> locate 	: localizar un archivo 
 -> grep 	: Buscar dentro del texto de un archivo (grep palabraBuscar archivoBuscar.txt)
 -> head		: Ver las primeras 10 lineas de cualquier archivo, (head -n 5: Mostrara las primeras 5 nombreArchivo)
+-> tail 	: Mostrara las ultimas 10 lineas de archivo, tail -n nombreArchivo.txt (tail -n 5 Archivo.txt)
 
 -> Ctrl + Insert 	: Copiar
 -> Insert			: Pegar
@@ -20,7 +21,7 @@
 -> locate -i 				 : No distingue mayusculas y minusculas
 -> locate -i palabra*palabra : Buscar dos o mas palabras usar el asterisco(*).
 
--> rmdir "directorio"/ 	: borrar directorios vacios
+-> rmdir "directorio"/ 		: borrar directorios vacios
 -> rm -r "nombrecarpeta" 	: Eliminar carpeta con sus archivos de manera recursiva
 
 -> cp "nombredeArchivo" "DirectorioACopiar"			: Copiar archivo
