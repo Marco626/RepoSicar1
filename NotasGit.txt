@@ -52,6 +52,7 @@
 	- git branch -a 							: Lista los branches ocultos
 	- git branch -d <nameBranch>				: Comando -d elimina el branch 
 	- git branch -D <nameBranch>				: Elimina sin preguntar
+	- git branch -u o/main <rama>				: Establece que la <rama> trackee a o/main
 
 # git push <origen> <branch>				: Subir al repositorio
 	-git push --tags 							: Subir un tag
@@ -61,6 +62,9 @@
 	- git reset <archivo>						: Quita el archivo del staging (contrario a add)
 	- git reset --soft HEAD^					: Devuelve el ultimo commit que se hizo y pone los cambios en staging
 	- git reset --hard HEAD^					: Devuelve el ultimo commit y todos los cambios, se borra commits porteriores
+	- git HEAD~<num>							: Moverse una cantidad de commits hacia atras
+	- git branch -f <rama> HEAD~3				: Mover la rama 3 commits atras del HEAD
+	- git branch -f <rama> <hash>				: Mover la rama a hash
 
 # git rebase								: Se ponga al dia con el master sin afectarlo, no es un merge
 
@@ -73,6 +77,9 @@
 # git checkout								: Regresar a un estado del proyecto
 	- git checkout <rama>						: Moverse entre ramas
 	- git checkout -b <rama>					: Un atajo para, -git branch <rama>- seguido de -git checkout <rama>-
+	- git checkout HEAD~4						: Mover HEAD 4 commits hacia atras
+	- git checkout HEAD^2						: Mover al segundo padre
+	- git checkout -b <rama> <ori/main>			: Hace que la <rama> rastree a ori/main
 
 # git revert HEAD --no-edit					: Revertir Commit
 
@@ -84,6 +91,8 @@
 
 
 # git cherry -v ramadeTrabajo ramaProduccion
+# git cherry-pick <rama>		: Tomar commit de otra rama sin hacer merge
+# git cherry-pick <hash> <hash> : Aplicar los commits<hash> a la rama donde estamos (Omitir commit innecesarios)
 
 
 
@@ -110,4 +119,12 @@
 # Comentarios aleatorios
 # Bass
 
+
+PRO:
+
+Rebasear hace que tu árbol de commits se vea bastante limpio, porque todos los commits siguen una única línea
+
+CONTRA:
+
+Rebasear modifica la historia (aparente) de tu árbol de commits.
 

@@ -17,6 +17,8 @@
 
 -> Ctrl + Insert 	: Copiar
 -> Insert			: Pegar
+-> Ctrl + A 		: Ir al comienzo de la linea
+-> Ctrl + E 		: Ir al final de la linea
 
 -> locate -i 				 : No distingue mayusculas y minusculas
 -> locate -i palabra*palabra : Buscar dos o mas palabras usar el asterisco(*).
@@ -27,3 +29,5 @@
 -> cp "nombredeArchivo" "DirectorioACopiar"			: Copiar archivo
 -> mv "Directorio/nombreArchivo" "DirectorioAMover"	: Mover un archivo
 
+-> Congrlar la terminal usando Ctrl + S , se deshace con Ctrl + Q.
+-> Varios comandos en un comando separa do por ; Comando1;Comando2;Comando# o usar && para que se ejecute el sig si el priero es exitoso
