@@ -83,7 +83,7 @@
 # git tag -a "V1" -m "Mensaje de tag"		: Agregar un tag a un commit especifico
 
 
-
+# git cherry -v ramadeTrabajo ramaProduccion
 
 
 
