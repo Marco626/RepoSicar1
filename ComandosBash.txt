@@ -1,0 +1,28 @@
+
+
+-> pwd 		: directorio de trabajo presente
+-> ls     	: Enumerar el contenido del directorio  ls -l incluir usuarios , ls -lh Con tamaño 
+-> cd    	: cambiar de directorio
+-> mkdir 	: crear carpetas
+-> touch 	: crear archivos nuevo, touch nuevoarchivo.txt
+-> cat   	: Nospermite ver el contenido de un archivo
+-> cd .. 	: regresar al anterior
+-> rm 		: Borrar un archivo o carpeta
+-> clear	: limpiar
+-> history 	: historial de comandos
+-> locate 	: localizar un archivo 
+-> grep 	: Buscar dentro del texto de un archivo (grep palabraBuscar archivoBuscar.txt)
+-> head		: Ver las primeras 10 lineas de cualquier archivo, (head -n 5: Mostrara las primeras 5 nombreArchivo)
+
+-> Ctrl + Insert 	: Copiar
+-> Insert			: Pegar
+
+-> locate -i 				 : No distingue mayusculas y minusculas
+-> locate -i palabra*palabra : Buscar dos o mas palabras usar el asterisco(*).
+
+-> rmdir "directorio"/ 	: borrar directorios vacios
+-> rm -r "nombrecarpeta" 	: Eliminar carpeta con sus archivos de manera recursiva
+
+-> cp "nombredeArchivo" "DirectorioACopiar"			: Copiar archivo
+-> mv "Directorio/nombreArchivo" "DirectorioAMover"	: Mover un archivo
+
