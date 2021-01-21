@@ -55,8 +55,9 @@
 	- git branch -u o/main <rama>				: Establece que la <rama> trackee a o/main
 
 # git push <origen> <branch>				: Subir al repositorio
-	-git push --tags 							: Subir un tag
-	-git push -u origin <rama>					: Subir una rama GitHub
+	- git push --tags 							: Subir un tag
+	- git push -u origin <rama>					: Subir una rama GitHub
+	- git push origin <origen>:<destino>		: Subir a rama especifica
 
 # git reset HEAD <archivo>					: Saca un archivo del commit
 	- git reset <archivo>						: Quita el archivo del staging (contrario a add)
